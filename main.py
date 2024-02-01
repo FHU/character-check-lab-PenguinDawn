@@ -1,6 +1,22 @@
-#Remove pass and complete the code
 def check_character(word, index):
-   pass
+   chari = word[index]
+   typing = ""
+   
+   if chari.isspace():
+       typing = "whitespace"
+   elif chari.isdigit():
+       typing = "digit"
+   elif chari.isalpha():
+       typing = "letter"
+   else:
+       typing = "unknown"
+   
+   return typing
+
+          
+
+
+
 
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
