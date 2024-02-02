@@ -2,7 +2,7 @@ def check_character(word, index):
    chari = word[index]
    typing = ""
 
-   #statements
+   #statements here
    
    if chari.isspace():
        typing = "whitespace"
