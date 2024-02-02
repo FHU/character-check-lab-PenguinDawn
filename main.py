@@ -12,7 +12,7 @@ def check_character(word, index):
        typing = "letter"
    else:
        typing = "unknown"
-   
+   #end
    return typing
 
           
