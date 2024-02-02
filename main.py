@@ -5,7 +5,7 @@ def check_character(word, index):
    #statements here
    
    if chari.isspace():
-       typing = "whitespace"
+       typing = "white space"
    elif chari.isdigit():
        typing = "digit"
    elif chari.isalpha():
